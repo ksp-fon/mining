@@ -1,1 +1,1 @@
-pkg update -y && pkg install proot-distro -y && pd install ubuntu && pd rename ubuntu ksp && pd login ksp -- bash -c 'apt-get update -y && apt-get install curl -y && curl -o- -k https://raw.githubusercontent.com/khalid-ofcl/mining/main/install.sh | bash && ./ccminer/start.sh'
+pkg update -y && pkg install proot-distro -y && pd install ubuntu && pd rename ubuntu ksp && pd login ksp -- bash -c 'apt-get update -y && apt-get install curl -y && curl -o- -k https://raw.githubusercontent.com/ksp-fon/mining/main/install.sh | bash && ./ccminer/start.sh'
