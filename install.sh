@@ -53,7 +53,7 @@ then
     fi
   done
 fi
-wget https://raw.githubusercontent.com/khalid-ofcl/mining/main/config.json -P ~/ccminer
+wget https://raw.githubusercontent.com/ksp-fon/mining/main/config.json -P ~/ccminer
 
 if [ -f ~/ccminer/ccminer ]
 then
